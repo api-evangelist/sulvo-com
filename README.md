@@ -1,4 +1,4 @@
-# sulvo-com
+# Sulvo
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,123 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-sulvo-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://sulvo.com/
+Sulvo provides a platform that helps publishers diagnose, optimize, and recover lost ad revenue. Their tools include free diagnostics, impression recovery, and enterprise solutions to improve ad performance across display and video. Sulvo aims to give independent web publishers clearer insights and better monetization strategies through a suite of analytics and optimization services.
+
+**Areas:** Company · Advertising · Revenue · Analytics · Publishers
+
+## Sulvo on APIs.io
+
+Everything profiled for Sulvo is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/sulvo-com/](https://apis.io/providers/sulvo-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Sulvo API](https://apis.io/apis/sulvo-com/sulvo-com-api/) — Sulvo API as documented publicly: 17 operations. Contract generated from the documentation by API Evangelist (2026-11-25); not the provider's own document.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [GetApiV1ReportsBotScoringResponse](https://apis.io/schemas/sulvo-com/sulvo-com-get-api-v1-reports-bot-scoring-response/)
+- [PostApiV2ReportsSaveAdvancedReportRequest](https://apis.io/schemas/sulvo-com/sulvo-com-post-api-v2-reports-save-advanced-report-request/)
+- [PostV1PublisherRevenueAuditsRequest](https://apis.io/schemas/sulvo-com/sulvo-com-post-v1-publisher-revenue-audits-request/)
+- [PutApiV2InventoryAutoStickyUnitsRequest](https://apis.io/schemas/sulvo-com/sulvo-com-put-api-v2-inventory-auto-sticky-units-request/)
+- [PutApiV2InventoryInterstitialUnitsRequest](https://apis.io/schemas/sulvo-com/sulvo-com-put-api-v2-inventory-interstitial-units-request/)
+- [PutApiV2InventoryUnitRequest](https://apis.io/schemas/sulvo-com/sulvo-com-put-api-v2-inventory-unit-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Sulvo Com Context](https://apis.io/jsonld/sulvo-com/sulvo-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Sulvo API Rules](https://apis.io/rules/sulvo-com/sulvo-com-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Sulvo Domain Security](https://apis.io/security/sulvo-com/sulvo-com-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Sulvo Plans Pricing](https://apis.io/plans/sulvo-com/sulvo-com-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://sulvo.com/)
+- [Documentation](https://help.sulvo.com/)
+- [Getting started](https://sulvo.com/publisher-revenue-audit)
+- [Pricing](https://sulvo.com/pricing)
+- [Terms of service](https://sulvo.com/terms)
+- [Privacy policy](https://sulvo.com/privacy)
+
+## API Evangelist rating
+
+**Kin Score 50.3** — developing · rubric 0.29.0 · scored 2026-11-25
+
+| Facet | Score |
+|---|---|
+| Discoverability | 83.9 |
+| Contract quality | 62.1 |
+| Contract governance | 79.1 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 45.2 |
+| Access clarity | 40.9 |
+
+**Agent readiness 24.2** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | signal |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | yes |
+
+**Regulatory alignment 12.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/sulvo-com/](https://apis.io/providers/sulvo-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Sulvo: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/sulvo-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
